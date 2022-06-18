@@ -1,0 +1,82 @@
+/* pc */
+@media (min-width: 64em){
+
+}
+/* table */
+@media (min-width: 46.25em ) and (max-width: 63.9375em){
+
+}
+@media (max-width: 63.9375em){
+    .btn__bay, .btn_send{
+        padding: 15px 16px;
+    }
+    .footer__icon{
+        font-size: 48px;
+    }
+    .footer__icon--link{
+        margin: 0 8px;
+    }
+    .footer__link{
+        padding: 12px 0;
+        display: inline-block;
+    }
+    .header__nav--link1{
+        padding: 5px 12px;
+    }
+}
+/* mobile */
+@media (max-width: 46.1875em ){
+    .header__list{
+        display:block ;
+    }
+    .header__item{
+        display: block;
+    }
+    .header__btn{
+        display:none;
+    }
+    .mbl_menu__btn{
+        display: block;
+    }
+    .header{
+        overflow: hidden;
+    }
+    .header__nav{
+      position:initial;
+      background-color: #333;
+      color: white;
+    }
+    .header__item--link{
+        padding: 1px 30px;
+    }
+    .header__nav--link1{
+        color: white;
+        padding: 5px 41px;
+    }
+   .member_item{
+    margin-top: 31px;
+    width: 100%;
+   }
+   .contact{
+       display: block;
+   }
+   .member_item1{
+        width: 100%;
+        padding: 8px;
+    }
+    .contact__info{
+        width: 100%;
+    }
+    .contact__form{
+        margin-top: 32px;
+    }
+    .contact__info1{
+        margin-top: 8px;
+    }
+    .btn__bay, .btn_send{
+        width: 100%;
+    }
+    .modal__body{
+        margin: 0 8px;
+    }
+}
